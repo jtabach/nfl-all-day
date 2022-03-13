@@ -32,7 +32,7 @@ app.get("/express_backend", (req, res) => {
         var discountValue = valueDelta / moment.listings.cheapestListingPrice;
 
         moment.discountValue = parseFloat(discountValue * 100).toFixed(1);
-        console.log("discountValue", moment.discountValue);
+        console.log("discountValue1", moment.discountValue);
         return moment;
       });
 
